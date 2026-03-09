@@ -15,19 +15,19 @@ assets/screenshots/week-01/certificate-inspection.png
 ## Website Information
 
 **Website inspected:**  
-<!-- Enter full URL -->
+<!-- www.cnet.com -->
 
 **Issuer (Certificate Authority):**  
-<!-- Example: DigiCert, Let's Encrypt, GlobalSign -->
+<!-- Bitdefender Personal CA.Net-Defender -->
 
 **Valid from:**  
-<!-- Start date -->
+<!-- Saturday, February 7,2026 at 8:23:12PM -->
 
 **Valid until:**  
-<!-- Expiration date -->
+<!-- Friday, May 8, 2026 at 9:23:11 PM -->
 
 **Signature algorithm:**  
-<!-- Example: sha256WithRSAEncryption -->
+<!-- PKCS #1 SHA-256 With RSA Encryption -->
 
 ---
 
@@ -35,8 +35,8 @@ assets/screenshots/week-01/certificate-inspection.png
 
 List at least 2–3 SAN entries:
 
-- 
-- 
+- DNS Name: *.cnet.com
+- DNS Name: cnet.com
 - 
 
 ---
@@ -46,13 +46,13 @@ List at least 2–3 SAN entries:
 Document three observations about the certificate.
 
 ### Observation 1
-<!-- What did you notice? -->
+<!-- The Certificate has a Serial Number Value. -->
 
 ### Observation 2
-<!-- What did you notice? -->
+<!-- The Certificate is only Valid for about a month -->
 
 ### Observation 3
-<!-- What did you notice? -->
+<!-- There are different Verisons of Certificates as this one is Version 3 -->
 
 ---
 
