@@ -49,7 +49,7 @@ Document three observations about the certificate.
 <!-- The Certificate has a Serial Number Value. -->
 
 ### Observation 2
-<!-- The Certificate is only Valid for about a month -->
+ The Certificate is only Valid for about a month
 
 ### Observation 3
 <!-- There are different Verisons of Certificates as this one is Version 3 -->
