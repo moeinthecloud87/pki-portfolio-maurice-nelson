@@ -46,13 +46,13 @@ List at least 2–3 SAN entries:
 Document three observations about the certificate.
 
 ### Observation 1
-<!-- The Certificate has a Serial Number Value. -->
+The Certificate has a Serial Number Value.
 
 ### Observation 2
  The Certificate is only Valid for about a month
 
 ### Observation 3
-<!-- There are different Verisons of Certificates as this one is Version 3 -->
+There are different Verisons of Certificates as this one is Version 3
 
 ---
 
@@ -60,4 +60,5 @@ Document three observations about the certificate.
 
 Based on your inspection, explain how this certificate contributes to secure HTTPS communication.
 
-(2–3 sentences)
+This certificate contributes to secure HTTPS communication by using RSA encryption. Also I believe by keeping the Expiration time low it forces to keep up with the latest updates to help mitigate potential attacks
+on the site.
