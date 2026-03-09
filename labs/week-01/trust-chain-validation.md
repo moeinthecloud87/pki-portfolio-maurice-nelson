@@ -16,20 +16,20 @@ Embed the screenshot below:
 ## Website Information
 
 **Website inspected:**  
-<!-- Enter full URL -->
+www.navyfederal.org
 
 ---
 
 ## Certificate Chain Breakdown
 
 **Leaf (Server) Certificate**  
-<!-- Enter Common Name or Subject -->
+navyfederal
 
 **Intermediate Certificate Authority**
-<!-- Enter Intermediate CA name -->
+Doesn't seem to have one? 
 
 **Root Certificate Authority (Trust Anchor)**
-<!-- Enter Root CA name -->
+Digicert Global Root G3
 
 ---
 
@@ -38,9 +38,9 @@ Embed the screenshot below:
 Is the Root CA marked as trusted by your system?
 
 <!-- Yes / No -->
-
+Yes
 If yes, explain where that trust comes from (OS/browser root store).
-
+Looks to be Browser root store.
 If no, explain what warning or behavior occurred.
 
 ---
@@ -51,13 +51,13 @@ Document three observations about the certificate.
 
 ### Observation 1
 <!-- What did you notice about the chain structure? -->
-
+It moved from Root DOWN 
 ### Observation 2
 <!-- What did you notice about the Root CA? -->
-
+TLS
 ### Observation 3
 <!-- What did you notice about how the browser determines trust? -->
-
+Not sure
 ---
 
 ## Reflection
@@ -68,3 +68,4 @@ In 3–5 sentences, explain:
 - What would happen if the Root CA were not trusted
 
 Use your own words.
+It's called a Trust Anchor because it sits on top of the entire Trust chain making it the highest level of authority in which verification from the lower certs gain their validity. Validation goes through the process of a claim being made by something like a site, it validates this Identity through control of a private key which then the a CA gives final stamp of approval and Validation happens. If the Root CA is not trusted then the whole process would have to start over, or if it's been compromised other steps to cure the issue will have to be taken.
