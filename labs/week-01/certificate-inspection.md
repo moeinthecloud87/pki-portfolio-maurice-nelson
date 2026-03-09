@@ -15,19 +15,19 @@ assets/screenshots/week-01/certificate-inspection.png
 ## Website Information
 
 **Website inspected:**  
-<!-- www.cnet.com -->
+ www.cnet.com
 
 **Issuer (Certificate Authority):**  
-<!-- Bitdefender Personal CA.Net-Defender -->
+Bitdefender Personal CA.Net-Defender
 
 **Valid from:**  
-<!-- Saturday, February 7,2026 at 8:23:12PM -->
+Saturday, February 7,2026 at 8:23:12PM 
 
 **Valid until:**  
-<!-- Friday, May 8, 2026 at 9:23:11 PM -->
+ Friday, May 8, 2026 at 9:23:11 PM 
 
 **Signature algorithm:**  
-<!-- PKCS #1 SHA-256 With RSA Encryption -->
+ PKCS #1 SHA-256 With RSA Encryption 
 
 ---
 
