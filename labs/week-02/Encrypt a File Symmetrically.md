@@ -31,7 +31,7 @@ GitHub’s web interface cannot run OpenSSL commands.
 ### Step 1 — Create Artifact Directory
 From the root of your directory:
 mkdir -p labs/02-week-02-cryptography-fundamentals/submissions/encrypted
-
+![Created Directory](../../assets/screenshots/week-02/createddirectory.png)
 ### Step 2 — Create a Plaintext File
 echo "Week 2 Symmetric Encryption Lab - CVI" > labs/02-week-02-cryptography-fundamentals/submissions/encrypted/plaintext.txt
 
