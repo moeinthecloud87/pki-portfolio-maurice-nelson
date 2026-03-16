@@ -34,9 +34,9 @@ mkdir -p labs/02-week-02-cryptography-fundamentals/submissions/encrypted
 ![Created Directory](../../assets/screenshots/week-02/createdirectory.png)
 ### Step 2 — Create a Plaintext File
 echo "Week 2 Symmetric Encryption Lab - CVI" > labs/02-week-02-cryptography-fundamentals/submissions/encrypted/plaintext.txt
-
+![Created File](../../assets/screenshots/week-02/createfilecontent.png)
 Open the file and confirm it is readable.
-
+![Created Directory](../../assets/screenshots/week-02/directorycre.png)
 ### Step 3 — Encrypt the File
 Use AES-256 encryption with password-based key derivation:
 
