@@ -5,6 +5,7 @@
 Briefly describe what this lab was about in your own words.
 What PKI concept were you investigating?
 
+This lab is about digging deeper into a cert with Certificate Extensions and why they are important
 ---
 
 ## Environment
