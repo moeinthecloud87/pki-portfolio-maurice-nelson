@@ -4,9 +4,9 @@
 Briefly describe what this lab was about in your own words. What PKI concept or workflow were you investigating?
 
 ## Environment
-- Operating System:
-- Terminal Used:
-- OpenSSL Version (openssl version):
+- Operating System: Windows 11
+- Terminal Used: OpenSSL/GIT BASH
+- OpenSSL Version (openssl version): 3.6.1
 
 ## Steps Performed
 Summarize the key steps you performed. Do not copy the lab instructions — describe what you actually did.
@@ -26,6 +26,7 @@ Summarize the key steps you performed. Do not copy the lab instructions — desc
 
 ## Explanation
 - Why must the private key never leave the requestor's machine — even when submitting a CSR to a CA?
+    A bad actor can grab the key and impersonate a persons identity and gain access to files, and other types of data. 
 - What is the difference between a CSR and a signed certificate?
 - In what real-world scenario would self-signing be appropriate vs submitting to a trusted CA?
 
