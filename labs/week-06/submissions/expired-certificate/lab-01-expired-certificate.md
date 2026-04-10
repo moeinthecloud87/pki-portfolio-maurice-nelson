@@ -13,12 +13,14 @@
 Summarize what you checked at each step. Do not copy the lab instructions — describe what you actually did.
 
 **Step 1 — Retrieve:**
-
+I used the command openssl s_client to Retrieve a live certificate. It returned a certificate, but no OpenSSL error was reported when using the command.
 **Step 2 — Parse:**
-
+Parsed the Certificate by using the command openssl x509 -in expired_cert.pem -text -noout and reading it. I checked the Not Before/After dates which were Not Before Apr 9 12 a.m. 2015 and not after Apr 12 11:59 2015. The cert is currently out of it's vailidity period. The subject is *.badssl.com and the issuer is COMODO RSA Domain Validation Secure.
 **Step 3 — Validate the Chain:**
-
+I checked for Chain Validation to rule out Chain errors. There are three Certificates a leaf, Intermediate, and Root which the chain does terminate at.
 **Step 4 — Check Revocation and Trust:**
+Checked if the Cert had been Revoked. There was a ocsp url presented after using the command openssl x509 -in expired_cert.pem -noout -text | grep -A1 "OCSP"
+ OCSP - URI:http://ocsp.comodoca.com
 
 ## Evidence
 
