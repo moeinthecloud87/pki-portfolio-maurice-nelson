@@ -24,25 +24,25 @@ Checked if the Cert had been Revoked. There was a ocsp url presented after using
 
 ## Evidence
 
-- Not Before date:
-- Not After date:
+- Not Before date:Apr  9 00:00:00 2015 GMT
+- Not After date:Apr 12 23:59:59 2015 GMT
 - Days since expiration:
-- Subject (entity the certificate was issued to):
-- Issuer:
-- Chain status (complete / incomplete):
-- OCSP URL present? (yes/no):
+- Subject (entity the certificate was issued to):*.badssl.com
+- Issuer:COMODO RSA Domain Validation Secure
+- Chain status (complete / incomplete):Yes
+- OCSP URL present? (yes/no):Yes
 
 ## Root Cause
 
 What caused the TLS failure? Be specific — is this a certificate problem, a chain problem, or a configuration problem?
-
+The TLS failure was caused by the Expiration of the certificate.
 ## Remediation
 
 Step-by-step path to resolve this incident:
 
-1.
-2.
-3.
+1.Create new Certificate
+2.Send Certificate for Signing with the CA
+3.Deploy new Certificate with updated Expiration Values.
 
 ## Key Findings
 
