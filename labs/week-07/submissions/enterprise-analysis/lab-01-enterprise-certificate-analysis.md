@@ -8,8 +8,8 @@ Briefly describe what this lab was about in your own words. What were you analyz
 
 - Operating System: Windows   
 - Terminal Used: GIT BASH/
-- OpenSSL Version (openssl version):
-- Target Hostname Chosen:
+- OpenSSL Version (openssl version): 1.1.1k
+- Target Hostname Chosen: Carefirst.com
 
 ## Target
 Carefirst Blue Cross Blue Shield
@@ -55,7 +55,7 @@ There were no Wildcard entries present.
 - Approximate number of certificates issued for this domain:625
 - Is the issuer consistent across recent certificates, or have multiple CAs been used? The Issuer is pretty consistent there are a few differenct CA like Amazon that also are Issuers.
 - Any unexpected or unfamiliar issuers? If yes, possible explanation: 
-- Certificate validity period pattern (90-day Let's Encrypt / 1–2 year paid CA):
+- Certificate validity period pattern (90-day Let's Encrypt / 1–2 year paid CA): from 193 - 312 day Validity period between 11/2025 and 4/2026
 
 ## Architecture Assessment
 
