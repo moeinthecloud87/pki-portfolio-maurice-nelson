@@ -31,10 +31,10 @@ If you can log into PKI-SRV01 as CORP\pki.admin, you are communicating with DC01
 
 | Field | Value |
 |-------|-------|
-| Template Display Name | |
-| Template Name (internal) | |
-| Validity Period | |
-| Renewal Period | |
+| Template Display Name |User |
+| Template Name (internal) |User |
+| Validity Period |1 Yr |
+| Renewal Period |6 weeks |
 | Schema Version | |
 
 **Request Handling tab — Purpose:**
@@ -46,13 +46,13 @@ Signature and encryption
 **Subject Name tab:**
 
 ```
-(Build from Active Directory? Supplied in request? What fields are included?)
-```
 Source for this template is not supplied in request but is built from information in Active Directory.
-**Extensions tab — Key Usage:**
-
 ```
-(List all Key Usages present)
+
+**Extensions tab — Key Usage:**
+Digital Signature
+```
+(List all Key Usages present)  
 ```
 
 **Extensions tab — Application Policies (EKU):**
@@ -73,18 +73,18 @@ Source for this template is not supplied in request but is built from informatio
 
 | Field | Value |
 |-------|-------|
-| Template Display Name | |
-| Template Name (internal) | |
-| Validity Period | |
+| Template Display Name |Computer |
+| Template Name (internal) |Machine |
+| Validity Period |1 Yr. |
 
 **Request Handling tab — Purpose:**
-
+Signature and Encryption
 ```
 (Signature, Encryption, or Signature and Encryption?)
 ```
 
 **Subject Name tab:**
-
+Built from information in Active Directory
 ```
 (Build from Active Directory? Supplied in request? What AD attribute is used?)
 ```
@@ -151,7 +151,7 @@ In your own words — what is the most significant difference between the User, 
 ```
 
 Why does the Web Server template use "Supplied in the request" for the subject name rather than building it from Active Directory?
-
+The Active Directory gets info for it's objects by DNS but web servers can have different server names, so you have to manually add a subject name.
 ```
 (your answer here — think about what Active Directory knows vs. what a web server's certificate needs to contain)
 ```
@@ -174,8 +174,8 @@ Why does the Web Server template use "Supplied in the request" for the subject n
 2. Click **OK** on any informational dialog that appears
 
 **Compatibility settings selected:**
-- Certification Authority: ________________
-- Certificate Recipient: ________________
+- Certification Authority: Windows Server 2012 R2
+- Certificate Recipient: _Windows 7/Server 2008 R2_____________
 
 ### Step 3 — Configure the General Tab
 
